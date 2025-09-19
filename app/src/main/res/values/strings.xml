@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="start_game">Start Game</string>
+    <string name="welcome_message">Welcome! Please Sign In</string>
+    <string name="email_hint">Email or Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logo_description">App logo animation</string>
+</resources>
+

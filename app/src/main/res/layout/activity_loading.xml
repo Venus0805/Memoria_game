@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99DCFD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <!-- Centered GIF -->
+    <ImageView
+        android:id="@+id/gifView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="Loading GIF"
+        android:src="@drawable/jumping_gif" />
+
+    <!-- Styled ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:progress="0"
+        android:max="100"
+        android:progressTint="#FF6200EE"
+        android:backgroundTint="#D3D3D3"
+        android:indeterminateOnly="false" />
+</LinearLayout>

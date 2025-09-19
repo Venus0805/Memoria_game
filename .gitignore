@@ -1,0 +1,22 @@
+# Android Studio / IntelliJ
+.idea/caches
+.idea/workspace.xml
+.idea/migrations
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# Android specific
+captures/
+.externalNativeBuild/
+.cxx/
